@@ -36,6 +36,9 @@ A semantic image search engine using OpenAI's CLIP and Meta's FAISS.
 
 ### 1. Prepare Images
    Place your images in a directory (e.g., `images/`). Subdirectories for categories are optional but good practice.
+   
+   **Example Dataset**: You can use the [Animal Image Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/animal-image-dataset-90-different-animals) from Kaggle which contains 90 different animal categories.
+   
    ```
    images/
      ├── category1/
