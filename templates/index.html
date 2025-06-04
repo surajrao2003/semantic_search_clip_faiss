@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Semantic Image Search</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Semantic Image Search</h1>
+        
+        <!-- Tab Navigation -->
+        <div class="tabs">
+            <button class="tab-button active" data-tab="text-search">Text Search</button>
+            <button class="tab-button" data-tab="image-search">Image Search</button>
+        </div>
+        
+        <!-- Text Search Tab -->
+        <div id="text-search" class="tab-content active">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search for images with text...">
+                <button id="searchButton">Search</button>
+            </div>
+        </div>
+        
+        <!-- Image Search Tab -->
+        <div id="image-search" class="tab-content">
+            <div class="upload-container">
+                <div class="drop-zone" id="dropZone">
+                    <span class="drop-zone__prompt">Drop image here or click to upload</span>
+                    <input type="file" id="fileInput" class="drop-zone__input" accept="image/*">
+                </div>
+                <div id="uploadPreview" class="preview-container">
+                    <!-- Preview will be shown here -->
+                </div>
+            </div>
+        </div>
+        
+        <!-- Results Section -->
+        <div id="results">
+            <h2>Results</h2>
+            <div id="resultsGrid" class="results-grid">
+                <!-- Results will be populated here -->
+            </div>
+        </div>
+    </div>
+    
+    <script src="/static/app.js"></script>
+</body>
+</html>
