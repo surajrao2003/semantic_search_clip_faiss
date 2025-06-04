@@ -90,3 +90,7 @@ A semantic image search engine using OpenAI's CLIP and Meta's FAISS.
 
 - [OpenAI CLIP](https://github.com/openai/CLIP)
 - [FAISS](https://github.com/facebookresearch/faiss)
+
+## Learn More
+
+I've documented my learnings and implementation details in this [post](https://suraj-projects.hashnode.dev/semantic-search-using-clip-and-faiss).
