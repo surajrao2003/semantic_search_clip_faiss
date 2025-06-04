@@ -1,6 +1,6 @@
 # Semantic Image Search with CLIP + FAISS
 
-![Demo](demo.gif)
+![UI Screenshot](demo.png)
 
 A semantic image search engine using OpenAI's CLIP and Meta's FAISS.
 
@@ -60,7 +60,7 @@ A semantic image search engine using OpenAI's CLIP and Meta's FAISS.
    - **Text Search**: Use the "Text Search" tab.
    - **Image Search**: Use the "Image Search" tab (drag & drop or upload).
 
-![UI Screenshot](demo.png)
+![Demo](demo.gif)
 
 ## Project Structure
 
